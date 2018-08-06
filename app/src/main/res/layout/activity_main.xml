@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"/>
+
+    <TextView
+        android:id="@+id/horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reset"
+        android:text="Vai"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="32dp"/>
+
+    <Button
+        android:id="@+id/btn_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horario"
+        android:layout_centerHorizontal="true"
+        android:text="Randomizar Horario"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/anti_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_horario"
+        android:text="Volta"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="40dp"/>
+
+    <Button
+        android:id="@+id/btn_anti_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/anti_horario"
+        android:text="Randomizar Anti-Horario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/geral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geral"
+        android:layout_below="@id/btn_anti_horario"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="40dp"/>
+
+    <Button
+        android:id="@+id/btn_geral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/geral"
+        android:text="Randomizar Geral"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+</RelativeLayout>
